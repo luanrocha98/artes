@@ -1,0 +1,41 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e2dd3f;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.single-img {
+    width: 70%;
+}
+
+.mosaic {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        width: 100%;
+    }
+
+    .single-img {
+        width: 85%; 
+    } 
+} 
